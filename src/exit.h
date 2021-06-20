@@ -1,1 +1,1 @@
-int exit(int status);
+void exit(int status);

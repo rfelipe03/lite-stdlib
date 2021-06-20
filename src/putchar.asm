@@ -11,4 +11,5 @@ section .text
 		mov rsi, integer
 		mov rdx, 1
 		syscall
+		mov rax, [integer]
 		ret
