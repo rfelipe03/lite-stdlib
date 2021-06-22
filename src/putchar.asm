@@ -1,7 +1,7 @@
 global putchar
 
 section .bss
-	integer resb 8
+	integer resb 4
 
 section .text
 	putchar:
